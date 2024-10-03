@@ -65,7 +65,7 @@ const Nav = () => {
                 <a href="#" className='font-medium'><DropdownHover/></a>
                 <a href="#" className='font-medium'>Gift Cards</a>
                 <a href="#" className='font-medium'>Track Your Order</a>
-                <a href="#" className='font-medium'>What's Geekozi</a>
+                <a href="#" className='font-medium'>What's Shonen Store</a>
                 <a href="#" className='font-medium'>Contact Us</a>
             </div>
         </div>
