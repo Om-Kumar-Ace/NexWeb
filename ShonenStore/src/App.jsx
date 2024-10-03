@@ -7,6 +7,10 @@ import Union from './assets/Home/union.png';
 import Star from './assets/Home/star.png';
 import Stars from './assets/Home/stars.png';
 import Pic1 from './assets/Home/pic1.png';
+import Vector from './assets/Home/1/Vector.svg';
+import Person from './assets/Home/1/person.svg';
+import Group1 from './assets/Home/1/Group1.png';
+
 
 function App() {
   return (
@@ -33,6 +37,43 @@ function App() {
             <div className="pic absolute top-64 right-24 w-2/5">
               <img src={Pic1} alt="" sizes="" srcset="" />
             </div>
+          </div>
+        </div>
+        <div className="sector1 flex gap-2 justify-center">
+          <div className="container blog1 w-2/5 flex flex-wrap  justify-center items-center p-4 rounded-lg">
+          <div className="vtr flex flex-col w-1/3">
+            <img src={Vector} alt="" className='h-12'/>
+            <h3>150+</h3>
+            <p>Total Over-Sized</p>
+          </div>
+          <div className="vtr flex flex-col w-1/3">
+            <img src={Person} alt="" className='h-12'/>
+            <h3>300+</h3>
+            <p>Total Characters</p>
+          </div>
+          <div className="vtr flex flex-col w-1/3">
+            <img src={Person} alt="" className='h-12'/>
+            <h3>300+</h3>
+            <p>Total Characters</p>
+          </div>
+          <div className="vtr flex flex-col w-1/3">
+            <img src={Vector} alt="" className='h-12'/>
+            <h3>20+</h3>
+            <p>Total Catagory</p>
+          </div>
+          <div className="vtr flex flex-col w-1/3">
+            <img src={Person} alt="" className='h-12'/>
+            <h3>300+</h3>
+            <p>Total Characters</p>
+          </div>
+          <div className="vtr flex flex-col w-1/3">
+            <img src={Person} alt="" className='h-12'/>
+            <h3>300+</h3>
+            <p>Total Characters</p>
+          </div>
+          </div>
+          <div className="blog2">
+            <img src={Group1} alt="" />
           </div>
         </div>
       </div>
