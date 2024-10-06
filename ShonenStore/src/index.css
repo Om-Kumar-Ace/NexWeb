@@ -9,7 +9,28 @@
  font-family: Montserrat;
  font-weight: 600;
 }
-
+.text-5xl{
+  font-size: 3vw;
+}
+.text-lg{
+  font-size: 1.275vw;
+}
+.gap-20{
+  gap: 5vw;
+}
+.gap-10{
+  gap: 2.5vw;
+}
+.p-10{
+  padding: 2.5vw;
+}
+.my-10{
+  margin-top: 2.5vw;
+  margin-bottom: 2.5vw;
+}
+.right-24 {
+  right: 6vw;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
