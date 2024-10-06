@@ -14,6 +14,7 @@ import Vector1 from './assets/ByAnime/Vector (1).svg';
 import Vector2 from './assets/ByAnime/Vector.svg';
 import CollectionGrid from './components/CardComponet.jsx'
 import ShopByCharacter from './components/ByChar.jsx'
+import TopTrendingProduct from './components/Trending.jsx'
 function App() {
   return (
     <>
@@ -98,6 +99,9 @@ function App() {
         </div>
         <div className="ByChar">
           <ShopByCharacter/>
+        </div>
+        <div className="Trends">
+          <TopTrendingProduct/>
         </div>
       </div>
     </>
