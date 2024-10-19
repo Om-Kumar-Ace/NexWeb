@@ -159,7 +159,7 @@ function App() {
 
       {/* Banner Section */}
 
-      <div className="banner flex flex-col md:flex-row w-full md:w-11/12 p-4 mx-auto md: relative">
+      <div className="banner hidden flex-col md:flex-row w-full md:w-11/12 p-4 mx-auto md: relative md:flex">
       <div className="union z-10 relative mx-auto w-full md:w-11/12">
         <img src="src/assets/Home/Frame 1261155390.png" alt="" className="w-full " />
       </div>
