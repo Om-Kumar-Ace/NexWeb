@@ -7,6 +7,7 @@ import Union from './assets/Home/union.png';
 import Star from './assets/Home/star.png';
 import Stars from './assets/Home/stars.png';
 import Pic1 from './assets/Home/pic1.png';
+import bg from './assets/Home/bg.png';
 import Vector from './assets/Home/1/Vector.svg';
 import Person from './assets/Home/1/person.svg';
 import Group1 from './assets/Home/1/Group1.png';
@@ -23,7 +24,7 @@ function App() {
   return (
     <>
       <Nav />
-      <div className="banner flex flex-col md:flex-row w-full md:w-4/5 p-4 md:pl-20 relative">
+      {/* <div className="banner flex-col hidden md:flex-row w-full md:w-4/5 p-4 md:pl-20 relative sm:flex">
         <div className="union z-10 relative w-full md:w-11/12">
           <img src={Union} alt="" className="w-full" />
         </div>
@@ -44,12 +45,14 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="pic absolute top-0 md:absolute md:top-20 right-4 md:-right-20 w-full md:w-2/5">
+          <div className="pic absolute top-0 md:absolute md:top-20 right-4 md:-right-20 w-full md:w-1/2">
             <img src={Pic1} alt="" className="w-full" />
           </div>
         </div>
+      </div> */}
+      <div className='md:w-4/5 mx-auto'>
+        <img src={bg} alt="" />
       </div>
-
       {/* Section 1 */}
       <div className="sector1 flex flex-wrap justify-center gap-4 p-4">
         <div className="container flex flex-wrap gap-10 justify-center items-center bg-gray-100 p-4 rounded-lg w-full md:w-2/5">
@@ -155,6 +158,19 @@ function App() {
       </div>
 
       {/* Banner Section */}
+
+      <div className="banner flex flex-col md:flex-row w-full md:w-11/12 p-4 mx-auto md: relative">
+      <div className="union z-10 relative mx-auto w-full md:w-11/12">
+        <img src="src/assets/Home/Frame 1261155390.png" alt="" className="w-full " />
+      </div>
+        <div className="z-20 absolute flex flex-col justify-end mt-5 md:flex-row mr-5 right-10 items-center">
+          <div className="w-1/3 mt-14 flex flex-col justify-start items-start">
+        <h2 className="text-3xl text-left mr-10 md:text-5xl">Step into the Anime Universe With Shonen Store</h2>
+        <br></br>
+        <button className='text-white font-bold bg-red-500 rounded-md p-3 md:p-4'>Discover More</button>
+          </div>
+        </div>
+      </div>
       <div className="banner w-full md:w-4/5 mx-auto my-10">
         <img src="src/assets/Home/Group 1000008588.png" alt="" className="w-full" />
       </div>
@@ -166,6 +182,59 @@ function App() {
       <div className="banner w-4/5 flex flex-col justify-center mx-auto">
         <img src="src\assets\Home\Group 1000008593.png" alt="" />
       </div>
+      
+    <div className="relative  py-10">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="src/assets/Home/union.png"
+          alt="Background"
+          className="w-4/5 h-full mx-auto object-cover"
+        />
+      </div>
+
+      {/* Content Section */}
+      <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto rounded-xl  p-8 lg:p-12 space-y-8 lg:space-y-0">
+        {/* Image Section */}
+        <div className="w-full lg:w-1/2">
+          <img
+            src="src/assets/Home/Rectangle 24518.png"
+            alt="Anime Characters"
+            className="rounded-lg"
+          />
+        </div>
+
+        {/* Signup Form Section */}
+        <div className="w-full lg:w-1/2 lg:pl-10">
+          <h2 className="text-3xl text-left font-bold mb-4 text-gray-900">
+            Sign up and never miss a deal
+          </h2>
+          <p className="text-gray-600 text-left mb-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <form className="flex flex-col sm:flex-row gap-4 mb-4">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="flex-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              required
+            />
+            <button
+              type="submit"
+              className="px-6 py-3 bg-black text-white rounded-md hover:bg-gray-800 transition"
+            >
+              Sign up
+            </button>
+          </form>
+          <p className="text-sm text-left text-gray-500">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam.
+          </p>
+        </div>
+      </div>
+    </div>
+ 
+
       <div className="advtz mx-auto p-4 gap-10 flex flex-wrap justify-center items-center">
         <div className="b1 flex justify-center items-center w-2/5 p-4" style={{ backgroundColor: "#f4f4f4" }}>
           <div className="icon p-1"><img src="src/assets/advtz/Group.png" alt="" /></div>
